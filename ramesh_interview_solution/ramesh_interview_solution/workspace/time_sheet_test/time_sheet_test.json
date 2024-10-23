@@ -1,0 +1,45 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"gDySp9dMKe\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Time sheet Test</span>\",\"col\":12}},{\"id\":\"ihw5qjm5mz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Time Sheet\",\"col\":3}}]",
+ "creation": "2024-10-22 22:23:54.849598",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "text",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Time sheet Test",
+ "links": [],
+ "modified": "2024-10-22 22:27:35.518115",
+ "modified_by": "Administrator",
+ "module": "Ramesh Interview Solution",
+ "name": "Time sheet Test",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Timesheet User"
+  },
+  {
+   "role": "Timesheet Manager"
+  }
+ ],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Time Sheet",
+   "link_to": "Time Sheet",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Time sheet Test"
+}

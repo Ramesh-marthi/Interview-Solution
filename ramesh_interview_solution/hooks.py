@@ -43,7 +43,7 @@ app_license = "mit"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-# doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {"Sales Order" : "public/js/sales_order.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -241,4 +241,48 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
+
+fixtures = [
+    {"dt": "User", "filters": [
+        [
+            "name", "in", [
+                "timesheet.manager@gmail.com",
+                "timesheet_user@gmail.com"
+            ]
+        ]
+    ]},
+    {"dt": "Role", "filters": [
+        [
+            "name", "in", [
+                "Timesheet Manager",
+                "Timesheet User"
+            ]
+        ]
+    ]},
+     {"dt": "Workflow", "filters": [
+        [
+            "name", "in", [
+                "Time Sheet",
+               
+            ]
+        ]
+    ]},
+    {"dt": "Workflow State", "filters": [
+        [
+            "name", "in", [
+                "Need Modification",
+               
+            ]
+        ]
+    ]},
+     {"dt": "Workflow Action Master", "filters": [
+        [
+            "name", "in", [
+                "Need Modification",
+               
+            ]
+        ]
+    ]},
+]
+
 
